@@ -1,7 +1,39 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: black;
+  font-family: "Merriweather";
+  color: white;
+  font-size: 30px;
 }
-canvas {
-  display: block;
+
+input[type="text"]{
+  font-size: 30px;
+  width: 230px;
+  border: 2px solid black;
+  border-radius: 100px;
 }
+
+input[type="checkbox"]{
+  transform:scale(2);
+  margin-right: 30px;
+}
+
+.esconde{
+  display: none;
+}
+
+.botao{
+  background-color: #FF9800;
+  border: 2px solid #FF9800;
+  border-radius: 200px;
+  color: white;
+  font-size: 30px;
+  font-family: "Merriweather";
+}
+
+.botao:hover{
+  background-color: #FF5722;
+  border: 2px solid #FF5722;
+}
+
